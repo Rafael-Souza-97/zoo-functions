@@ -12,7 +12,7 @@ describe('Testes da função getOpeningHours', () => {
       Monday: { open: 0, close: 0 },
     });
   });
-  it('Para os argumentos Tuesday e 09:00-AM deve retornar a string "The zoo is open"', () => {
+  it('Para os argumentos Tuesday e 09:00-AM deve retornar a string "The zoo is open" ', () => {
     expect(getOpeningHours('Tuesday', '09:00-AM')).toEqual('The zoo is open');
   });
   it('Para os argumentos Wednesday e 09:00-PM deve retornar a string "The zoo is closed"', () => {
