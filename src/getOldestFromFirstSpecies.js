@@ -10,8 +10,8 @@ function getOldestFromFirstSpecies(id) {
   const animal = species.filter((element) => element.id === firstAnimal[0]).map((element) =>
     element.residents).reduce((acc, item) => (acc.ge > item.age ? acc : item))
     .reduce((acc, animalInfo) => (acc.age > animalInfo.age ? acc : animalInfo));
-  const result = [animal.name, animal.sex, animal.age];
-  return result;
+  const results = [animal.name, animal.sex, animal.age];
+  return results;
 }
 
 module.exports = getOldestFromFirstSpecies;
