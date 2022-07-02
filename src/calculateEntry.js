@@ -12,8 +12,8 @@ function countEntrants(entrants) {
 function calculateEntry(entrants) {
   if (!entrants || Object.keys(entrants).length === 0) return 0;
   const childPrice = 20.99 * countEntrants(entrants).child;
-  const seniorPrice = 24.99 * countEntrants(entrants).senior;
   const adultPrice = 49.99 * countEntrants(entrants).adult;
+  const seniorPrice = 24.99 * countEntrants(entrants).senior;
 
   return childPrice + seniorPrice + adultPrice;
 }
