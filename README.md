@@ -33,6 +33,10 @@ Descrição do projeto:
 - [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 - [Linux - Ubuntu](https://ubuntu.com/)
 
+## Testes
+
+- [Jest](https://jestjs.io/)
+
 ## Infos Adicionais
 
 - ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 88%
